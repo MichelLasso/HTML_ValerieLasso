@@ -2,6 +2,16 @@
     ><head>
         <title>Metrolínea_Cl</title>
         <style>
+            @font-face {
+                font-family: letra;
+                src: url(fonts/static/OpenSans-SemiBold.ttf);
+                
+            }
+            @font-face{
+                
+                font-family: num;
+                src: url(fonts/static/OpenSans-Regular.ttf);
+            }
             .marco2 {
                 width: 1600; 
                 height: 1200px;
@@ -26,6 +36,8 @@
                 left: 459px;
                 width: 576px;
                 height: 324px;
+                font-family: letra;
+                
             }
             .LogoMetr{
                 position: absolute;
@@ -92,7 +104,7 @@
                 color: #fff;
                 text-align: left;
                 font: normal normal normal 20px/27px Open Sans;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: letra;
 
             }
             .numero1{
@@ -101,11 +113,17 @@
                 left: 1417px;
                 width: 57px;
                 height: 27px;
+                font-family: letra;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-num);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-ffffff);
                 text-align: left;
-                font: normal normal normal 20px/27px Open Sans;
+                font: normal normal normal 20px/27px num;
                 letter-spacing: 0px;
-                color: #FFFFFF80;
                 opacity: 1;
+                color: #FFFFFF80;
+
+
             }
             .numero2{
                 position: absolute;
@@ -113,11 +131,15 @@
                 left: 1419px;
                 width: 57px;
                 height: 27px;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-num);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-ffffff);
                 text-align: left;
-                font: normal normal normal 20px/27px Open Sans;
+                font: normal normal normal 20px/27px num;
                 letter-spacing: 0px;
                 color: #FFFFFF;
                 opacity: 1;
+
             }
             .numero3{
                 position: absolute;
@@ -125,11 +147,15 @@
                 left: 1419px;
                 width: 57px;
                 height: 27px;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-num);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-ffffff);
                 text-align: left;
-                font: normal normal normal 20px/27px Open Sans;
+                font: normal normal normal 20px/27px num;
                 letter-spacing: 0px;
                 color: #FFFFFF80;
                 opacity: 1;
+
             }
             .recargar{
                 position: absolute;
@@ -141,12 +167,12 @@
                 font: normal normal 600 26px/36px Open Sans;
                 color: #000000;
                 opacity: 1;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: letra
 
             }
             .nombre{
                 position: absolute;
-                top: 600px;
+                top: 565px;
                 left: 401px;
                 width: 700px;
                 height: 55px;
@@ -154,22 +180,22 @@
                 font: normal normal 600 40px/55px Open Sans;
                 color: #000000;
                 opacity: 1;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: letra
             }
             .saldoActual{
                 position: absolute;
-                top: 677px;
+                top: 663px;
                 left: 583px;
                 width: 335px;
                 height: 37px;
                 font: normal normal 600 27px/37px Open Sans;
                 color: #000000;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: letra
 
             }
             .saldoEscogido{
                 position: absolute;
-                top: 744px;
+                top: 725px;
                 left: 639px;
                 width: 230px;
                 height: 37px;
@@ -177,12 +203,12 @@
                 font: normal normal 600 27px/37px Open Sans;
                 color: #000000;
                 opacity: 1;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: letra
 
             }
             .precio{
                 position: absolute;
-                top: 810px;
+                top: 803px;
                 left: 595px;
                 width: 288px;
                 height: 58px;
@@ -200,7 +226,7 @@
                 font: normal normal 600 27px/37px Open Sans;
                 color: #000000;
                 opacity: 0.5;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: letra
 
             }
             .comprarT{
