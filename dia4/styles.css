@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: letra;
-    src: url(font/italic.ttf);
+    src: url(font/Myriad\ Pro\ Italic.ttf);
 }
 .marco{
     position: absolute;
@@ -306,7 +306,7 @@
 .flechai{
     position: absolute;
     top: 3689px;
-    left: 305px;
+    left: 1580px;
     width: 19px;
     height: 27px;
 }
