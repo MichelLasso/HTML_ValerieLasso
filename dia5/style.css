@@ -8,6 +8,9 @@ body{
     width: 1920px;
     height: 1080px;
 }
+.cuadro1{
+    position: relative;
+}
 .texto1{
     position: relative;
     color: #ff702a;
@@ -188,12 +191,104 @@ body{
 }
 .rectangulo6{
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 370px;
     background-color: #ffefe8;
-    top: -200;
+    top: -400;
+    left: 350;
 }
 .foodimg1{
     position: relative;
-    top: -300px;
+    width: 250px;
+    top: -770px;
+    left: 400px;
+}
+.texto1imagen1{
+    position: relative;
+    color: #000;
+    width: 400px;
+    height: 100px;
+    top: -796px;
+    left: 425px;
+    font-size: 25px;
+    font-family: letra;
+}
+.texto2imagen1{
+    position: relative;
+    color: #000;
+    width: 400px;
+    height: 100px;
+    top: -890px;
+    left: 460px;
+    font-size: 19px;
+    font-family: letra;
+}
+.texto3imagen1{
+    position: relative;
+    color: #ff702a;
+    width: 400px;
+    height: 100px;
+    top: -986px;
+    left: 490px;
+    font-size: 19px;
+    font-family: letra;
+}
+.rectangulo7{
+    position: relative;
+    width: 350px;
+    height: 370px;
+    background-color: #ffefe8;
+    top: -1425;
+    left: 750;
+}
+.foodimg2{
+    position: relative;
+    width: 270px;
+    top: -1805px;
+    left: 785px;
+}
+
+.texto1imagen2{
+    position: relative;
+    color: #000;
+    width: 400px;
+    height: 100px;
+    top: -1845px;
+    left: 790px;
+    font-size: 25px;
+    font-family: letra;
+}
+.texto2imagen2{
+    position: relative;
+    color: #000;
+    width: 400px;
+    height: 100px;
+    top: -1939px;
+    left: 873px;
+    font-size: 19px;
+    font-family: letra;
+}
+.texto3imagen2{
+    position: relative;
+    color: #ff702a;
+    width: 400px;
+    height: 100px;
+    top: -2035px;
+    left: 900px;
+    font-size: 19px;
+    font-family: letra;
+}
+.rectangulo8{
+    position: relative;
+    width: 350px;
+    height: 370px;
+    background-color: #ffefe8;
+    top: -2468;
+    left: 1140;
+}
+.foodimg3{
+    position: relative;
+    width: 230px;
+    top: -2830px;
+    left: 1205px;
 }
