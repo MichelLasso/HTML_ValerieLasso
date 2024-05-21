@@ -182,7 +182,7 @@ body{
     position: relative;
     color: #fff;
     top: -500px;
-    left: 500px;
+    left: 400px;
     font-size: 70px;
     font-family: letra;
 }
@@ -280,12 +280,13 @@ body{
     width: 350px;
     height: 370px;
     background-color: #ffefe8;
-    top: -2490;
-    left: 950;
+    top: -2350;
+    left: 1150;
 }
 .foodimg3{
     position: relative;
-    width: 230px;
-    top: -2830px;
-    left: 1295px;
+    width: 210px;
+    height: 208px;
+    top: -2700px;
+    left: 1220px;
 }
