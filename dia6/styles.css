@@ -1,0 +1,29 @@
+.marco{
+    position: absolute;
+    width: 1920px;
+    background-color: black;
+    top: 0px;
+}
+.inicio{
+    position: relative;
+    width: 1920px;
+    height: 174px;
+    top: 0px;
+    left: 0px;
+}
+.imagenfondo{
+    position: relative;
+    width: 2456px;
+    height: 1638px;
+    opacity: 0.5px;
+    top: 0px;
+    left: -288.7714538574219px;
+}
+.inicio2{
+    position: relative;
+    width: 1920px;
+    height: 285px;
+    top: 1463px;
+    left: 0px;
+    background-color: aqua;
+}
