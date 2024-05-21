@@ -8,9 +8,6 @@ body{
     width: 1920px;
     height: 1080px;
 }
-.cuadro1{
-    position: relative;
-}
 .texto1{
     position: relative;
     color: #ff702a;
@@ -283,12 +280,12 @@ body{
     width: 350px;
     height: 370px;
     background-color: #ffefe8;
-    top: -2468;
-    left: 1140;
+    top: -2490;
+    left: 950;
 }
 .foodimg3{
     position: relative;
     width: 230px;
     top: -2830px;
-    left: 1205px;
+    left: 1295px;
 }
