@@ -280,13 +280,16 @@ body{
     width: 350px;
     height: 370px;
     background-color: #ffefe8;
-    top: -2350;
+    top: -2469;
     left: 1150;
 }
 .foodimg3{
     position: relative;
-    width: 210px;
+    width: 220px;
     height: 208px;
-    top: -2700px;
-    left: 1220px;
+    top: -2820px;
+    left: 1210px;
+}
+.texto1imagen3{
+    position: relative;
 }
