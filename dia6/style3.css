@@ -1,0 +1,190 @@
+@font-face {
+    font-family: letra;
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: li;
+    src: url(fonts/MyriadPro-Light.otf);
+}
+.imagenfondo{
+    position: absolute;
+    width: 1920px;
+    height: 1290px;
+    opacity: 0.5px;
+    top: 0px;
+    overflow: hidden;
+}
+.menubar{
+    position: relative;
+    width: 1920px;
+    height: 174px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 2;
+}
+.imgBottom{
+    position: relative;
+    top: 1110px;
+    left: 0px;
+    width: 1920px;
+    height: 194px;
+    overflow: hidden;
+}
+.imagenBlanca{
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 900px;
+}
+.logoDian{
+    position: relative;
+    width: 313px;
+    height: 53px;
+    top: -100px;
+    left: 604px;
+}
+.icon{
+    position: relative;
+    top: 220px;
+    left: 345px;
+    width: 231px;
+    height: 231px;
+}
+.texto4{
+    position: relative;
+    font-family: letra;
+    font-size: 39px;
+    top: 254px;
+    left: 599px;
+    width: 370px;
+    height: 39px;
+}
+.texto5{
+    position: relative;
+    font-family: letra;
+    font-size: 35px;
+    top: 297px;
+    left: 299px;
+    width: 1000px;
+    height: 84px;
+    text-align: center;
+}
+.sol{
+    position: relative;
+    top: 310px;
+    left: 688px;
+    width: 264px;
+    height: 88px;
+}
+.menuP{
+    position: relative;
+    top: 388px;
+    left: 378px;
+    width: 311px;
+    height: 79px;
+}
+.texto10{
+    position: relative;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    top: 64px;
+    left: 278px;
+    font-size: 34px;
+    font-family: li;
+}
+.texto11{
+    position: relative;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 34px;
+    left: 504px;
+    font-size: 34px;
+    font-family: li;
+}
+.texto12{
+    position: relative;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: -65px;
+    left: 1285px;
+    font-size: 34px;
+    font-family: li;
+}
+
+.opcion{
+    position: relative;
+    background-color: #ffffff;
+    width: 209px;
+    height: 50px;
+    top: -175px;
+    left: 1550px;
+    border-radius: 20px;
+}
+.texto13{
+    position: relative;
+    color: #000000;
+    width: 100px;
+    height: 100px;
+    top: -220px;
+    left: 1595px;
+    font-size: 30px;
+    font-family: li;
+}
+.gobiernoLogo{
+    position: relative;
+    width: 349px;
+    height: 67px;
+    top: -327px;
+    left: 785px;
+}
+.icon3{
+    position: relative;
+    width: 30px;
+    height: 20px;
+    top: 30px;
+    left: 1544;
+}
+.texto14{
+    position: relative;
+    color: #fff;
+    font-family: letra;
+    font-size: 15px;
+    text-align: center;
+    top: 38px;
+    left: 590px;
+}
+
+.location{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: -77px;
+    left: 420px;
+}
+.texto15{
+    position: relative;
+    color: #fff;
+    font-family: letra;
+    font-size: 15px;
+    text-align: center;
+    top: -59px;
+    left: -520px;
+}
+.footer
+{
+    position: relative;
+    width: 400px;
+    height: 60px;
+    top: -145px;
+    left: 800px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
