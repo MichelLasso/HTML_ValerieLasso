@@ -104,15 +104,15 @@
 }
 .iconAwesome{
     position: relative;
-    top: 120px;
+    top: 100px;
     left: 425px;
     width: 71px;
     height: 42px
 }
 .firma{
     position: relative;
-    top: 123px;
-    left: 650px;
+    top: 103px;
+    left: 647px;
     width: 270px;
     height: 24px;
     font-size: 24px;
@@ -121,7 +121,7 @@
 .texto5{
     position: relative;
     top: 169px;
-    left: 450px;
+    left: 430px;
     width: 700px;
     height: 27px;
     font-family: letra;
@@ -130,7 +130,7 @@
 .textoR{
     position: relative;
     top: 190px;
-    left: 630px;
+    left: 609px;
     width: 364px;
     height: 15px;
     font-family: li;
@@ -139,7 +139,7 @@
 .textoM{
     position: relative;
     top: 209px;
-    left: 673px;
+    left: 649px;
     width: 299px;
     height: 15px;
     font-family: li;
@@ -150,7 +150,7 @@
     font-size: 15px;
     font-family: li;
     top: 219px;
-    left: 714px;
+    left: 687px;
     width: 294px;
     height: 15px;
 }
@@ -159,7 +159,7 @@
     font-family: li;
     font-size: 15px;
     top: 229px;
-    left: 500px;
+    left: 490px;
     width: 698px;
     height: 15px;
 }
@@ -168,7 +168,7 @@
     font-family: li;
     font-size: 15px;
     top: 239px;
-    left: 576px;
+    left: 566px;
     width: 698px;
     height: 15px;
 }
@@ -177,14 +177,14 @@
     font-family: li;
     font-size: 15px;
     top: 249px;
-    left: 500px;
+    left: 445px;
     width: 710px;
     height: 15px;
 }
 .textoContraseña{
     position: relative;
     top: 289px;
-    left: 474px;
+    left: 390px;
     width: 100px;
     height: 21px;
     font-family: letra;
@@ -193,14 +193,14 @@
 .contrasena{
     position: relative;
     top: 300px;
-    left: 474px;
+    left: 395px;
     width: 792px;
     height: 63px;
 }
 .textoContraseña2{
     position: relative;
     top: 400px;
-    left: 474px;
+    left: 390px;
     width: 300px;
     height: 21px;
     font-family: letra;
@@ -209,21 +209,22 @@
 .contraseña{
     position: relative;
     top: 100px;
-    left: 474px;
+    left: 394px;
     width: 792px;
     height: 63px;
 }
 .boton{
     position: relative;
     top: 603px;
-    left: 747px;
+    left: 699px;
     width: 166px;
     height: 42px;
+    border-radius: 20px;
 }
 .texto6{
     position: relative;
     top: 510px;
-    left: 618px;
+    left: 575px;
     width: 474px;
     height: 11px;
     font-family: li;
@@ -232,7 +233,7 @@
 .root{
     position: relative;
     top: 513px;
-    left: 460px;
+    left: 410px;
     width: 401px;
     height: 113px;
 }
@@ -277,6 +278,7 @@
     top: -345px;
     left: 800px;
 }
+
 *{
     margin: 0;
     padding: 0;

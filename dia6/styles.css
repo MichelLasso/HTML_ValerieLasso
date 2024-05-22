@@ -120,6 +120,7 @@
     left: 730px;
     width: 165px;
     height: 42px;
+    border-radius: 20px;
 }
 .texto5{
     position: relative;
@@ -227,13 +228,23 @@
     font-size: 34px;
     font-family: li;
 }
+.opcion{
+    position: relative;
+    background-color: #ffffff;
+    width: 209px;
+    height: 50px;
+    top: -165px;
+    left: 1550px;
+    border-radius: 20px;
+}
+
 .texto13{
     position: relative;
     color: #000000;
     width: 100px;
     height: 100px;
-    top: -163px;
-    left: 1629px;
+    top: -209px;
+    left: 1599px;
     font-size: 30px;
     font-family: li;
 }
@@ -241,7 +252,7 @@
     position: relative;
     width: 349px;
     height: 67px;
-    top: -277px;
+    top: -320px;
     left: 785px;
 }
 .icon3{
@@ -284,13 +295,7 @@
     top: -247px;
     left: -520px;
 }
-.opcion{
-    position: relative;
-    background-color: #000000;
-    width: 100px;
-    height: 100px;
-    top: 100px;
-}
+
 
 *{
     margin: 0;

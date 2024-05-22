@@ -103,14 +103,14 @@
 }
 .iconAwesome{
     position: relative;
-    top: 120px;
+    top: 100px;
     left: 425px;
     width: 71px;
     height: 42px
 }
 .firma{
     position: relative;
-    top: 123px;
+    top: 99px;
     left: 650px;
     width: 270px;
     height: 24px;
@@ -119,8 +119,8 @@
 }
 .texto1{
     position: relative;
-    top: 155px;
-    left: 196px;
+    top: 125px;
+    left: 126px;
     width: 1308px;
     height: 64px;
     font-family: letra;
@@ -129,8 +129,8 @@
 }
 .sol{
     position: relative;
-    top: 159px;
-    left: 659px;
+    top: 135px;
+    left: 669px;
     width: 231px;
     height: 77px;
 

@@ -47,8 +47,8 @@
 }
 .icon{
     position: relative;
-    top: 220px;
-    left: 345px;
+    top: 200px;
+    left: 332px;
     width: 231px;
     height: 231px;
 }
@@ -66,7 +66,7 @@
     font-family: letra;
     font-size: 35px;
     top: 297px;
-    left: 299px;
+    left: 279px;
     width: 1000px;
     height: 84px;
     text-align: center;
@@ -74,7 +74,7 @@
 .sol{
     position: relative;
     top: 310px;
-    left: 688px;
+    left: 640px;
     width: 264px;
     height: 88px;
 }
