@@ -9,7 +9,7 @@
 .imagenfondo{
     position: absolute;
     width: 1920px;
-    height: 1638px;
+    height: 1458px;
     opacity: 0.5px;
     top: 0px;
     overflow: hidden;
@@ -25,7 +25,7 @@
 }
 .imgBottom{
     position: relative;
-    top: 1480px;
+    top: 1262px;
     left: 0px;
     width: 1920px;
     height: 194px;
@@ -35,7 +35,7 @@
     top: 191px;
     left: 167px;
     width: 1545px;
-    height: 1225px;
+    height: 1015px;
     border-radius: 50px;
     overflow: hidden;
 }
@@ -209,15 +209,31 @@
 }
 .contraseña{
     position: relative;
-    top: 350px;
+    top: 100px;
     left: 474px;
     width: 792px;
     height: 63px;
 }
+.boton{
+    position: relative;
+    top: 603px;
+    left: 747px;
+    width: 166px;
+    height: 42px;
+}
+.texto6{
+    position: relative;
+    top: 510px;
+    left: 618px;
+    width: 474px;
+    height: 11px;
+    font-family: li;
+    font-size: 11px;
+}
 .root{
     position: relative;
-    top: 333px;
-    left: 760px;
+    top: 513px;
+    left: 460px;
     width: 401px;
     height: 113px;
 }
