@@ -48,7 +48,7 @@
 .texto1{
     position: relative;
     top: 90px;
-    left: 400px;
+    left: 365px;
     width: 796px;
     height: 64px;
     font-size: 26px;
@@ -58,7 +58,7 @@
 .muisca{
     position: relative;
     top: 109px;
-    left: 670px;
+    left: 650px;
     width: 231px;
     height: 77px;
 }
@@ -122,8 +122,8 @@
 }
 .consultar{
     position: relative;
-    top: 486px;
-    left: -60px;
+    top: 466px;
+    left: -67px;
     width: 166px;
     height: 42px;
     background-color: rgb(80, 106, 237);

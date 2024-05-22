@@ -44,12 +44,12 @@
     width: 313px;
     height: 53px;
     top: 60px;
-    left: 604px;
+    left: 634px;
 }
 .texto1{
     position: relative;
     top: 90px;
-    left: 500px;
+    left: 460px;
     width: 666px;
     height: 64px;
     font-size: 26px;
@@ -66,7 +66,7 @@
 .texto2{
     position: relative;
     top: 123px;
-    left: 369px;
+    left: 399px;
     width: 208px;
     height: 21px;
     font-family: letra;
@@ -75,7 +75,7 @@
 .rectangulo{
     position: relative;
     top: 132px;
-    left: 364px;
+    left: 399px;
     width: 792px;
     height: 63px;
     border: 1px solid #707070;
@@ -83,7 +83,7 @@
 .texto3{
     position: relative;
     top: 167px;
-    left: 364px;
+    left: 399px;
     width: 318px;
     height: 21px;
     font-family: letra;
@@ -92,7 +92,7 @@
 .calendar{
     position: relative;
     top: -410px;
-    left: 139px;
+    left: 177px;
     width: 792px;
     height: 63px;
     border: 1px solid #707070;
@@ -100,7 +100,7 @@
 }
 .robot{
     position: relative;
-    top: 290px;
+    top: 280px;
     left: 633px;
     width: 401px;
     height: 113px;
@@ -109,15 +109,15 @@
     position: relative;
     font-size: 11px;
     font-family: li;
-    top: 280px;
+    top: 287px;
     left: 551px;
     width: 518px;
     height: 11px
 }
 .consultar{
     position: relative;
-    top: 423px;
-    left: 764px;
+    top: 300px;
+    left: 730px;
     width: 165px;
     height: 42px;
 }
@@ -125,22 +125,22 @@
     position: relative;
     font-family: letra;
     font-size: 35px;
-    top: 250px;
-    left: 264px;
+    top: 340px;
+    left: 314px;
     width: 1052px;
     height: 35px;
 }
 .iconAwesome{
     position: relative;
     top: 379px;
-    left: 391px;
+    left: 581px;
     width: 63px;
     height: 84px;
 }
 .texto6{
     position: relative;
     top: 391px;
-    left: 338px;
+    left: 517px;
     width: 188px;
     height: 35px;
     font-family: letra;
@@ -149,7 +149,7 @@
 .texto7{
     position: relative;
     top: 410px;
-    left: 208px;
+    left: 376px;
     width: 470px;
     height: 86px;
     font-family: li;
@@ -159,21 +159,22 @@
 .tramitar{
     position: relative;
     top: 424px;
-    left: 322px;
+    left: 500px;
     width: 220px;
     height: 56px;
 }
+
 .icon2{
     position: relative;
     top: 199px;
-    left: 768px;
+    left: 827px;
     width: 103px;
     height: 62px;
 }
 .texto8{
     position: relative;
     top: 200px;
-    left: 870px;
+    left: 910px;
     width: 380px;
     height: 35px;
     font-size: 35px;
@@ -182,7 +183,7 @@
 .texto9{
     position: relative;
     top: 219px;
-    left: 940px;
+    left: 955px;
     width: 289px;
     height: 86px;
     font-family: li;
@@ -192,7 +193,7 @@
 .tramitar2{
     position: relative;
     top: 231px;
-    left: 1009px;
+    left: 990px;
     width: 220px;
     height: 56px;
 }
