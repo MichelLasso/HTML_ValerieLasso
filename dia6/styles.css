@@ -163,6 +163,7 @@
     left: 500px;
     width: 220px;
     height: 56px;
+    border-radius: 20px;
 }
 
 .icon2{
@@ -174,7 +175,7 @@
 }
 .texto8{
     position: relative;
-    top: 200px;
+    top: 210px;
     left: 910px;
     width: 380px;
     height: 35px;
@@ -183,7 +184,7 @@
 }
 .texto9{
     position: relative;
-    top: 219px;
+    top: 223px;
     left: 955px;
     width: 289px;
     height: 86px;
@@ -197,6 +198,7 @@
     left: 990px;
     width: 220px;
     height: 56px;
+    border-radius: 20px;
 }
 .texto10{
     position: relative;
@@ -206,7 +208,7 @@
     top: 64px;
     left: 278px;
     font-size: 34px;
-    font-family: li;
+    font-family: letra;
 }
 .texto11{
     position: relative;
@@ -216,7 +218,7 @@
     top: 34px;
     left: 504px;
     font-size: 34px;
-    font-family: li;
+    font-family: letra;
 }
 .texto12{
     position: relative;
@@ -226,7 +228,7 @@
     top: -65px;
     left: 1285px;
     font-size: 34px;
-    font-family: li;
+    font-family: letra;
 }
 .opcion{
     position: relative;
@@ -244,9 +246,9 @@
     width: 100px;
     height: 100px;
     top: -209px;
-    left: 1599px;
+    left: 1595px;
     font-size: 30px;
-    font-family: li;
+    font-family: letra;
 }
 .gobiernoLogo{
     position: relative;
@@ -258,7 +260,7 @@
 .icon3{
     position: relative;
     width: 30px;
-    height: 20px;
+    height: 30px;
     top: -150px;
     left: 1544;
 }
@@ -268,21 +270,21 @@
     font-family: letra;
     font-size: 15px;
     text-align: center;
-    top: -148px;
+    top: -140px;
     left: 590px;
 }
 .footer
 {
     position: relative;
-    width: 400px;
+    width: 320px;
     height: 60px;
     top: -320px;
-    left: 800px;
+    left: 830px;
 }
 .location{
     position: relative;
     width: 20px;
-    height: 20px;
+    height: 26px;
     top: -260px;
     left: 420px;
 }
@@ -295,8 +297,36 @@
     top: -247px;
     left: -520px;
 }
-
-
+.opcionConsultar{
+    color: #fff;
+    position: relative;
+    font-family: li;
+    font-size: 15;
+    width: 50px;
+    height: 50px;
+    top: -226px;
+    left: 785px;
+}
+.opcionTramitar{
+    position: relative;
+    font-family: li;
+    font-size: 15;
+    width: 50px;
+    height: 0px;
+    top: 140px;
+    left: 585px;
+    color: #fff;
+}
+.opcionTramitar2{
+    position: relative;
+    font-family: li;
+    font-size: 15;
+    width: 50px;
+    height: 0px;
+    top: 140px;
+    left: 1077px;
+    color: #fff;
+}
 *{
     margin: 0;
     padding: 0;

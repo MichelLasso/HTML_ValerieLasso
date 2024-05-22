@@ -126,7 +126,6 @@
     left: -67px;
     width: 166px;
     height: 42px;
-    border-radius: 20px;
 }
 .texti{
     position: relative;
@@ -145,7 +144,7 @@
     top: 64px;
     left: 278px;
     font-size: 34px;
-    font-family: li;
+    font-family: letra;
 }
 .texto11{
     position: relative;
@@ -155,7 +154,7 @@
     top: 34px;
     left: 504px;
     font-size: 34px;
-    font-family: li;
+    font-family: letra;
 }
 .texto12{
     position: relative;
@@ -165,7 +164,7 @@
     top: -65px;
     left: 1285px;
     font-size: 34px;
-    font-family: li;
+    font-family: letra;
 }
 .opcion{
     position: relative;
@@ -184,7 +183,7 @@
     top: -208px;
     left: 1595px;
     font-size: 30px;
-    font-family: li;
+    font-family: letra;
 }
 .gobiernoLogo{
     position: relative;
@@ -197,8 +196,8 @@
 .icon3{
     position: relative;
     width: 30px;
-    height: 20px;
-    top: 30px;
+    height: 25px;
+    top: 25px;
     left: 1544;
 }
 .texto14{
@@ -214,7 +213,7 @@
 .location{
     position: relative;
     width: 20px;
-    height: 20px;
+    height: 25px;
     top: -77px;
     left: 420px;
 }
@@ -230,7 +229,7 @@
 .footer
 {
     position: relative;
-    width: 400px;
+    width: 320px;
     height: 60px;
     top: -145px;
     left: 800px;
@@ -241,6 +240,17 @@
     left: 655px;
     width: 300px;
     height: 76px;
+    border-radius: 20px;
+}
+.opcionConsultar{
+    color: #ffffff;
+    position: relative;
+    font-family: li;
+    font-size: 18;
+    width: 50px;
+    height: 50px;
+    top: 194px;
+    left: 779px;
 }
 *{
     margin: 0;
