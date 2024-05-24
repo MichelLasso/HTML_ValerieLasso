@@ -45,24 +45,24 @@ body {
 }
 .logoPrime{
     position: absolute;
-    top: 23vh;
+    top: 21vh;
     left: 36vw;
     width: 28vw;
-    height: 26vh;
+    height: 30vh;
 }
 .group1{
     position: absolute;
-    top: 70vh;
-    left: 39vw;
+    top: 73vh;
+    left: 38vw;
     width: 24vw;
     height: 10vh;
 }
 .rectangle2{
     position: absolute;
-    top: 3vh;
+    top: 2vh;
     left: 88vw;
-    width: 11vw;
-    height: 5vh;
+    width: 12vw;
+    height: 6vh;
 }
 .group2{
     position: absolute;
@@ -165,20 +165,20 @@ body {
     top: 4vh;
     left: 3vw;
     width: 2vw;
-    height: 3vh;
+    height: 4vh;
 }
 .text1{
     font-size: 3vw;
     position: absolute;
-    top: 42vh;
-    left: 35vh;
+    top: 39vh;
+    left: 39vh;
     color: #fff;
     font-family: bold;
 }
 .text2{
     font-size: 2vw;
     position: absolute;
-    top: 51vh;
+    top: 50vh;
     left: 13vw;
     color: #ffffffc2;
     font-family: lt;
@@ -187,7 +187,7 @@ body {
 .text3{
     font-size: 2vw;
     position: absolute;
-    top: 69vh;
+    top: 71vh;
     left: 42vw;
     color: #000;
     font-family: lt;
@@ -195,7 +195,7 @@ body {
 }
 .text4{
     position: absolute;
-    top: 0vh;
+    top: -2vh;
     font-size: 2vw;
     left: 92vw;
     color: black;
