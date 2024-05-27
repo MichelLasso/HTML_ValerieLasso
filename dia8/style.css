@@ -1,0 +1,18 @@
+body{
+    margin: 0px
+}
+.contenedor{
+    width: 1920px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: black;
+}
+.contenedor1{
+    display: flex;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+}
+.videoDinosaurios{
+    border-radius: 12px;
+}
