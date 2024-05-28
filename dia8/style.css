@@ -1,18 +1,80 @@
-body{
-    margin: 0px
-}
-.contenedor{
-    width: 1920px;
-    height: auto;
-    overflow: hidden;
-    border-radius: 20px;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
     background-color: black;
-}
-.contenedor1{
-    display: flex;
-    grid-template-columns: repeat(2,200px);
-    grid-template-rows: repeat(2,200px);
-}
-.videoDinosaurios{
-    border-radius: 12px;
-}
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .uno {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 50vw;
+    height: 68vh;
+  }
+
+  .video1 {
+    border-radius: 2vw;
+    width: 30vw;
+    height: 68vh;
+  }
+
+  .dos {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+  }
+
+  .video2 {
+    border-radius: 2vw;
+    width: 50vw;
+    height: 68vh;
+  }
+
+  .tres {
+    border-radius: 2vw;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    width: 42vw;
+    height: 140vh;
+    }
+
+    .textoimg {
+        border-radius: 2vw;
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        width: 42vw;
+        height: 140vh;
+    }
+
+    .cuatro {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+  .fotos {
+    border-radius: 2vw;
+    grid-row: 2 / span 3;
+    grid-column: 1 / span 3;
+    width: 92vw;
+    
+  }
+  .grid-container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto ;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2%;
+  }
+  .imagenes{
+  }
