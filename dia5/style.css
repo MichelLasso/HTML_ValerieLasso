@@ -79,24 +79,38 @@ body{
     font-size: 40px;
 }
 .home{
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 1060px;
+    color: white;
+    text-decoration: none;
 }
 .about{
     margin-left: 50px;
     margin-top: 25px;
+    color: white;
+    text-decoration: none;
 }
+
 .menu{
-    margin-left: 45px;
+    margin-left: 50px;
     margin-top: 23px;
+    color: white;
+    text-decoration: none;
+
 }
 .service{
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 20px;
+    color: white;
+    text-decoration: none;
+
 }
 .contact{
     margin-left: 50px;
     margin-top: 20px;
+    color: white;
+    text-decoration: none;
+
 }
 .fullW{
     color: #ff702a;
