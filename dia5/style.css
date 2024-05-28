@@ -4,292 +4,410 @@
 }
 body{
     background-color: #1e1d2b;
-    position: absolute;
+    position: absolute;    
+}
+.contenedorPrincipal{
     width: 1920px;
-    height: 1080px;
-}
-.texto1{
-    position: relative;
-    color: #ff702a;
-    top: 35px;
-    left: 150px;
-    font-size: 40px;
-    margin: 0;
-    font-family: letra;
-}
-.texto2{
-    position: relative;
-    color: #ff702a;
-    top: 240px;
-    left: 275px;
-    width: 1100px;
-    height: 309px;
-    font-size: 120px;
-    margin: 0;
-    font-family: letra;
-}
-.texto3{
-    position: relative;
-    color: #fff;
-    width: 600px;
-    height: 50px;
-    top: 109px;
-    left: 280px;
-    font-size: 45px;
-    margin: 0;
-    font-family: letra;
-}
-.rectangulomenu{
-    position: relative;
-    background-color: #ff702a;
-    width: 277px;
-    height: 70px;
-    margin: 0;
-    top: 210px;
-    left: 280px;
-}
-.texto4{
-    position: relative;
-    color: #fff;
-    width: 240px;
-    height: 250px;
-    margin: 0;
-    top: 155px;
-    left: 304px;
-    font-size: 34px;
-    font-family: letra;
-}
-.texto5{
-    position: relative;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    margin: 0;
-    top: -653px;
-    left: 1330;
-    font-size: 20px;
-    font-family: letra;
+    height: auto;
 }
 
-.texto6{
+.contenedor{
     position: relative;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    margin: 0;
-    top: -756px;
-    left: 1460;
-    font-size: 20px;
-    font-family: letra;
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 870px;
+    overflow: hidden;
+    
 }
-.texto7{
+.contenedor2{
     position: relative;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    margin: 0;
-    top: -856;
-    left: 1570;
-    font-size: 20px;
-    font-family: letra;
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 840px;
+    overflow: hidden;
 }
-.texto8{
+.contenedor3{
     position: relative;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    margin: 0;
-    top: -958;
-    left: 1660;
-    font-size: 20px;
-    font-family: letra;
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 870px;
+    overflow: hidden;
 }
-.texto9{
+.contenedor4{
+
     position: relative;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    margin: 0;
-    top: -1059;
-    left: 1773;
-    font-size: 20px;
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 830px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+
+}
+.contenedor5{
+    position: relative;
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 760px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor6{
+    position: relative;
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 470px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.contenedorFoods{
+    width: 1920px;
+    color: white;
     font-family: letra;
+    font-size: 23px;
+    display: flex;
+    margin-top: 36px;
+}
+.foods{
+    position: relative;
+    color: #ff702a;
+    margin-top: 5px;
+    margin-left: 99px;
+    font-size: 40px;
 }
 .home{
-    position: relative;
-    width: 600px;
-    height: 600px;
-    top: -1050px;
-    left: 1210px;
-}
-.texto10{
-    position: relative;
-    color: #ff702a;
-    width: 100px;
-    height: 100px;
-    font-family: letra;
-    font-size: 20px;
-    top: -350px;
-    left: 1195px;
-}
-.texto11{
-    position: relative;
-    color: #fff;
-    width: 590px;
-    height: 100px;
-    font-family: letra;
-    font-size: 50px;
-    top: -450px;
-    left: 1190px;
-}
-.texto12{
-    position: relative;
-    color: #ffff;
-    width: 660px;
-    height: 100px;
-    font-family: letra;
-    font-size: 25px;
-    top: -450px;
-    left: 1190px;
+    margin-top: 30px;
+    margin-left: 1060px;
 }
 .about{
-    position: relative;
-    width: 600px;
-    height: 600px;
-    top: -810;
-    left: 350px;
-    margin: 0;
+    margin-left: 50px;
+    margin-top: 25px;
 }
-.texto13{
-    position: relative;
-    color: #ffff;
-    width: 200px;
-    height: 100px;
-    top: -1130px;
-    left: 1222px;
+.menu{
+    margin-left: 45px;
+    margin-top: 23px;
+}
+.service{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.contact{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.fullW{
+    color: #ff702a;
+    font-size: 117px;
+    font-family: letra;
+    margin-top: 132px;
+    margin-left: 220px;
+}
+.foodsMPT{
+    color: white;
+    font-size: 40px;
+    font-family: letra;
+    margin-left: 224px;
+    margin-top: -97px;
+}
+.rectanguloNaran{
+    background-color: #ff702a;
+    width: 250px;
+    height: 57px;
+    margin-left: 226px;
+    overflow: hidden;
+}
+.todaM{
+    color: white;
+    font-family: letra;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 14px;
+}
+.homeimg{
+    width: 556px;
+    padding-left: 1122px;
+    margin-top: -435px;
+    height: 538px;
+}
+.aboutimg{
+    width: 500px;
+    height: 500px;
+    padding-left: 131px;
+    margin: 161px;
+}
+.aUs{
+    color: #ff702a;
     font-size: 25px;
     font-family: letra;
+    margin-top: -639px;
+    margin-left: 913px
 }
-.rectangulo5{
-    position: relative;
-    background-color: #ff702a;
-    width: 199px;
-    height: 50px;
-    top: -1065px;
-    left: 1192px;
-}
-.texto14{
-    position: relative;
-    color: #fff;
-    top: -500px;
-    left: 400px;
+.WeSpeak{
+    color: white;
     font-size: 70px;
     font-family: letra;
+    margin-left: 913px;
+    margin-top: -10px;
 }
-.rectangulo6{
-    position: relative;
-    width: 350px;
-    height: 370px;
-    background-color: #ffefe8;
-    top: -400;
-    left: 350;
+.itIs{
+    color: white;
+    font-family: letra;
+    font-size: 25px;
+    margin-left: 913px;
+    margin-top: -38px;
 }
-.foodimg1{
-    position: relative;
-    width: 250px;
-    top: -770px;
-    left: 400px;
+.rectangulo2Naran{
+    background-color: #ff702a;
+    width: 240px;
+    height: 57px;
+    margin-left: 913px;
+    overflow: hidden;
 }
-.texto1imagen1{
-    position: relative;
-    color: #000;
-    width: 400px;
-    height: 100px;
-    top: -796px;
-    left: 425px;
+.LeanM{
+    color: white;
+    font-family: letra;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 14px;
+}
+.foodMenu{
+    color: #ff702a;
     font-size: 25px;
     font-family: letra;
+    text-align: center;
+    margin-top: 20px;
 }
-.texto2imagen1{
-    position: relative;
-    color: #000;
-    width: 400px;
-    height: 100px;
-    top: -890px;
-    left: 460px;
-    font-size: 19px;
+.FreshTaste{
+    color: white;
     font-family: letra;
+    font-size: 70px;
+    text-align: center;
 }
-.texto3imagen1{
-    position: relative;
+.cuadradosMenu{
+    display: flex;
+    justify-content: center;
+    
+}
+.cuadro{
+    background-color: rgba(255,239,232,255);
+    width: 410px;
+    height: 420px;
+    padding-left: 45px;
+    margin: 10px;
+    border-left: 5px solid black;
+    overflow: hidden;
+}
+.img1{
+    margin-top: 15px;
+    margin-left: 45px;
+    height: 275px;
+}
+.img2{
+    margin-top: 30px;
+    margin-left: 65px;
+    height: 235px;
+}
+.img3{
+    margin-top: 15px;
+    margin-left: 45px;
+    height: 275px;
+}
+.cuadroN{
+    background-color: #ff702a;
+    width: 50px;
+    height: 50px;
+    margin-top: -400px;
+    margin-left: 358px;
+    text-align: center;
+}
+.cuadroNa{
+
+    background-color: #ff702a;
+    width: 50px;
+    height: 50px;
+    margin-top: -405px;
+    margin-left: 358px;
+    text-align: center;
+
+}
+.chicken{
+    color: black;
+    font-family: letra;
+    font-size: 25px;
+    margin-left: 82px;
+    margin-top: -5px;
+}
+.Cfry{
+    color: black;
+    font-family: letra;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: -5px;
+}
+.foto2{
+    color: black;
+    font-family: letra;
+    font-size: 25px;
+    margin-left: 50px;
+
+}
+.tasty{
+    font-family: letra;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.precio{
+    font-family: letra;
     color: #ff702a;
-    width: 400px;
-    height: 100px;
-    top: -986px;
-    left: 490px;
-    font-size: 19px;
+    font-size: 23px;
+    margin-left: 140px;
+    margin-top: -15px;
+}
+.tasty2{
     font-family: letra;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: -20px;
 }
-.rectangulo7{
-    position: relative;
-    width: 350px;
-    height: 370px;
-    background-color: #ffefe8;
-    top: -1425;
-    left: 750;
+.precio2{
+    font-family: letra;
+    color: #ff702a;
+    font-size: 23px;
+    margin-left: 140px;
+    margin-top: -15px;
 }
-.foodimg2{
-    position: relative;
-    width: 270px;
-    top: -1805px;
-    left: 785px;
+.icon{
+    margin-top: 10px;
+    width: 30px;
+}
+.services{
+    color: #ff702a;
+    font-size: 25px;
+    font-family: letra;
+    text-align: center;
+}
+.weP{
+    color: white;
+    font-family: letra;
+    font-size: 70px;
+    text-align: center;
+}
+.fotosMenu{
+    width: 300px;
+    display: flex;
+    margin-left: 100px;
+}
+.fotoM{
+    width: 320px;
+    padding-left: 200px;
+}
+.name{
+    margin-top: -45px;
+    font-family: letra;
+    display: flex;
+    font-size: 50px;
+}
+.order{
+    
+    padding-left: 365px;
+    color: #ff702a;
+}
+.shipping{
+    color: #ff702a;
+    padding-left: 340px;
+
+}
+.dellvered{
+    color: #ff702a;
+    padding-left: 280px;
+}
+.text{
+    color: white;
+    font-family: letra;
+    font-size: 25px;
+    display: flex;
+    margin-top: -60px;
+}
+.text1{
+    width: 450px;
+    padding-left: 215px;
+    text-align: center;
+}
+.text2{
+    width: 450px;
+    padding-left: 80px;
+    text-align: center;
+}
+.text3{
+    width: 450px;
+    padding-left: 80px;
+    text-align: center;
+}
+.rectangle{
+    margin-top: 140px;
+    background-color: rgba(255,239,232,255);
+    width: 1700px;
+    height: 500px;
+    margin-left: 100px;
+    border: 1px solid black;
+
+}
+.weWake{
+    color: black;
+    font-family: letra;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 30px;
+}
+.rectangleNa{
+    background-color: #ff702a;
+    width: 280px;
+    height: 50px;
+    margin-left: 710px;
+    color: white;
+    font-family: letra;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 13px;   
+}
+.caja{
+    color: white;
+    font-family: letra;
+    font-size: 30px;
+    margin:83px;
+    margin-left: 250px;
+}
+.caja2{
+    color: white;
+    font-family: letra;
+    font-size: 30px;
+    margin:83px;
+    margin-left: 20px;
+}
+.caja3{
+    color: white;
+    font-family: letra;
+    font-size: 30px;
+    margin:83px;
+    margin-left: 0px;
+}
+.caja4{
+    width: 300px;
+    color: white;
+    margin-left: 100px;
+    font-size: 35px;
+    font-family: letra;
+    margin-top: 75px;
 }
 
-.texto1imagen2{
-    position: relative;
-    color: #000;
-    width: 400px;
-    height: 100px;
-    top: -1845px;
-    left: 790px;
-    font-size: 25px;
-    font-family: letra;
-}
-.texto2imagen2{
-    position: relative;
-    color: #000;
-    width: 400px;
-    height: 100px;
-    top: -1939px;
-    left: 873px;
-    font-size: 19px;
-    font-family: letra;
-}
-.texto3imagen2{
-    position: relative;
-    color: #ff702a;
-    width: 400px;
-    height: 100px;
-    top: -2035px;
-    left: 900px;
-    font-size: 19px;
-    font-family: letra;
-}
-.rectangulo8{
-    position: relative;
-    width: 350px;
-    height: 370px;
-    background-color: #ffefe8;
-    top: -2469;
-    left: 1150;
-}
-.foodimg3{
-    position: relative;
-    width: 220px;
-    height: 208px;
-    top: -2820px;
-    left: 1210px;
-}
-.texto1imagen3{
-    position: relative;
+.iconF{
+    width: 50px;
+    margin-left: -24px;
+    padding-left: 18px;
 }
