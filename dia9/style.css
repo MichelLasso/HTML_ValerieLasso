@@ -27,7 +27,7 @@ body{
 }
 .lluvia{
     margin-top: 55%;
-    width: 50%;
+    width: 70%;
     height: auto;
     animation: lluvia 25s;
     animation-delay:0.5s;
@@ -40,29 +40,27 @@ body{
     40%{transform: translateY(0);}
     100%{transform: translateY(800px);}
 }
-.flower{
-    width: 100%;
-    height: auto;
-    
-}
+
 .flor{
+    position: relative;
     margin-left: 25%;
-    margin-top: 36.7%;
+    margin-top: 35%;
     width: 15%;
     height: auto;
     animation: flor 25s;
+    
 }
 @keyframes flor{
-    0%,80%{opacity: 0;}
-    81%,90%{opacity: 0.5;}
-    91%,100%{opacity: 1;}
+
+    0%{margin-top: 35%;}
+    90%{margin-top: 35%;}
+    100%{margin-top: 23%; }
 }
 
 
 .sol{
     width: 30%;
     height: auto;
-    margin-top: -80%;
     margin-left: -5%;
     animation: sol 25s;
     animation-delay: 1s;
@@ -76,4 +74,55 @@ body{
     81%,90%{opacity: 0.5;}
     91%,100%{opacity: 1;}
 
+}
+
+.numeros{
+    margin-left: 20%;
+    margin-top: -40%;
+}
+.uno{
+    width: 10%;
+    height: auto;
+    margin-bottom: 20%;
+    margin-left: 2%;
+    animation: uno 25s;
+    
+}
+@keyframes uno{
+    0%{ opacity: 1;}
+    2%,100%{ opacity: 0; }
+}
+.dos{
+    width: 10%;
+    height: auto;
+    margin-bottom: 20%;
+    margin-left: 2%;
+    animation: dos 25s;
+
+}
+@keyframes dos{
+    2%{ opacity: 1;}
+    3%,100%{ opacity: 0; }
+}
+.tres{
+    width: 10%;
+    height: auto;
+    margin-bottom: 20%;
+    margin-left: 2%;
+    animation: tres 25s;
+}
+@keyframes tres{
+    4%{ opacity: 1;}
+    5%,100%{ opacity: 0; }
+}
+.accion{
+   width: 40%;
+   height: auto;
+   margin-bottom: 20%;
+   animation: accion 25s;
+}
+@keyframes accion{
+    0%,5%{ opacity: 0;}
+    6%,8%{ opacity: 1; }
+    9%,100%{opacity: 0;}
 }
