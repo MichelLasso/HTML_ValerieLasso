@@ -1,3 +1,79 @@
 body{
-    background-color: powderblue;
+    margin: 0%;
+    padding: 0%;
+}
+
+.paisaje{
+    width: 100%;
+    height: 100%;
+    background-image: url(paisaje/pexels-jahoo-388415.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}   
+.nube{
+    position: absolute;
+    margin-left: -27%;
+    width: 30%;
+    height: auto;
+    animation: nube 25s   ;
+    animation-delay:2s ;
+    z-index: 2;
+}
+@keyframes nube{
+    0%{ left: 1%;}
+    50%,60%{ left: 50%; }
+    100%{left: 130%;}
+}
+.lluvia{
+    margin-top: 55%;
+    width: 50%;
+    height: auto;
+    animation: lluvia 25s;
+    animation-delay:0.5s;
+}
+
+@keyframes lluvia{
+    0%, 42%{opacity: 0;}
+    43%{opacity: 0.5;}
+    89%,100%{opacity: 0;}
+    40%{transform: translateY(0);}
+    100%{transform: translateY(800px);}
+}
+.flower{
+    width: 100%;
+    height: auto;
+    
+}
+.flor{
+    margin-left: 25%;
+    margin-top: 36.7%;
+    width: 15%;
+    height: auto;
+    animation: flor 25s;
+}
+@keyframes flor{
+    0%,80%{opacity: 0;}
+    81%,90%{opacity: 0.5;}
+    91%,100%{opacity: 1;}
+}
+
+
+.sol{
+    width: 30%;
+    height: auto;
+    margin-top: -80%;
+    margin-left: -5%;
+    animation: sol 25s;
+    animation-delay: 1s;
+    
+}
+@keyframes sol{
+
+    0%, 39%{opacity: 1;}
+    39%,41%{opacity: 0.5;}
+    42%,80%{opacity: 0.3;}
+    81%,90%{opacity: 0.5;}
+    91%,100%{opacity: 1;}
+
 }
