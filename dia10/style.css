@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
 }
+
 /*contenedor del menu*/
 .menu{
     background-color: white;
@@ -20,11 +21,12 @@
     flex-direction: column; 
     margin: 0;
     padding: 0;
+    transition: all .4s;
 }
 /*contenedor Dashboard*/
 .contenedorCuadros{
-    background-color: gray;
-    width:80vw ;
+    background-color: rgb(223, 223, 223);
+    width:98% ;
     height: 100vw;
     margin-top: 4.3%;
 }
@@ -39,18 +41,24 @@
 /*segunda parte del menu*/
 .menuContenedor2{
     width: 20vw;
-    height: 26vw;
+    height: 16vw;
     margin: 0%;
     padding: 0%;
     overflow: hidden;
-    background-color: palegreen;
     
+}
+.menuContenedor3{
+    width: 20vw;
+    height: 16vw;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
 }
 /*imagen cara sonriente*/
 .carita{
-    width: 4vw;
-    height: 5vw;
-    margin-top: -1.4vw;
+    width: 2.5vw;
+    height: 2.3vw;
+    margin-left: 0.5vw;
 }
 
 .div1{
@@ -65,7 +73,7 @@
     width: 17vw;
     display: flex;
     height: 3.5vw;
-    background-color: blue;
+    background-color: rgb(28, 71, 187);
     border-radius: 1vw;
     margin-left: 1vw;
     overflow: hidden;
@@ -74,27 +82,31 @@
 }
 /*icon*/
 .imagen{
-    width: 3vw;
-    height: 3vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: 1vw;
 }
 /*text*/
 .dasboard{
     color: white;
     margin-left: 1vw;
     font-size: 1.5vw;
+    
 }
 /*text*/
 .adminsite{
     margin: 0vw;
     padding: 0vw;
     font-size: 2vw;
-    color: blue;
+    color: rgb(28, 71, 187);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 /*desplazamiento del menu*/
 .botonMenu{
-    width: 2.5vw;
-    height: 2.5vw;
-    margin-top: -3.8vw;
+    width: 1vw;
+    height: 1vw;
+    margin-top: -2vw;
     margin-left: 1vw;
 }
 .div3{
@@ -110,28 +122,49 @@
     height: 3.5vw;
     font-size: 1.2vw;
 }
+#dos{
+    border: none;
+    width: 17vw;
+    height: 3.5vw;
+    font-size: 1.2vw;
+    margin-top: -2vw;
+    margin-left: 0.2vw;
+}
 .main{
     font-size: 1.2vw;
+
 }
 .div4{
     margin-top: 1vw;
     margin-left: 1vw;
     width: 17vw;
-    height: 3.5vw;
+    height: 2.5vw;
 }
 .div5{
-    margin-top: 1vw;
+    margin-top: -0.5vw;
+    width: 100vw;
+    height: 15vw;
+    display: flex;
     margin-left: 1vw;
-    width: 17vw;
-    height: 5vw;
 }
 .charts{
     border: none;
     width: 17vw;
-    height: 3.5vw;
+    height: 2vw;
     font-size: 1.2vw;
     text-align: start;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+
+}
+.charts1{
+    margin: 0vw;
+    border: none;
+    width: 17vw;
+    height: 2vw;
+    font-size: 1.2vw;
+    text-align: start;
+    background-color: rgb(255, 255, 255);
+
 }
 .widgest{
     border: none;
@@ -140,37 +173,124 @@
     font-size: 1.2vw;
     text-align: start;
     background-color: white;
+
 }
 .texto1C2{
     display: flex;
     flex-direction: column;
     margin-left: 1.5vw;
+
 }
 .texto1{
     font-size: 2.3vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 .texto2{
     margin-top: -1.5vw;
+    font-size: 1vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 .div5{
-    margin: 1vw;
-    width: 76vw;
-    height: 11vw;
-    background-color: bisque;
+    margin-top: -0.5vw;
+    width: 80vw;
+    height: 15vw;
     display: flex;
 }
 .cuadros{
-    width: 17vw;
-    height: 9vw;
-    background-color: brown;
-    margin: 1vw;
+    width: 22vw;
+    height: 12vw;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5vw;
     border-radius: 1vw;
 }
 .div6{
-    margin-left: 1vw;
-    margin-top: -1vw;
-    width: 76vw;
-    height: 7vw;
-    background-color: plum;
+    margin-left: 1.5vw;
+    width: 91vw;
+    height: 8vw;
+    background-color: rgb(255, 255, 255);
     border-radius: 1vw;
+    overflow: hidden;
+    
+}
+.numImg{
+    width: 17vw;
+    height: 4vw;
+    margin-top: 1.5vw;
+    display: flex;
+    overflow: hidden;
+}
+.num{
+    font-size: 2vw;
+    margin-left: 1vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.iconRaYA{
+    margin-top: 1vw;
+    width: 1.8vw;
+    height: 1.8vw;
+    margin-left: 9.6vw;
+}
+.iconRaYA2{
+    margin-top: 1vw;
+    width: 1.8vw;
+    height: 1.8vw;
+    margin-left: 10.6vw;
+}
+.traffic{
+    margin-top: -0.2vw;
+    font-size: 1vw;
+    margin-left: 1vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.rayaAzul{
+    margin-top: 1.5vw;
+    width: 15vw;
+    height: 1vw;
+    background-color: rgb(223, 223, 223);
+    margin-left: 1vw;
+    border-radius: 2vw ;
+    overflow: hidden;
+}
+.azul1{
+    width: 6.5vw;
+    height: 1vw;
+    background-color: rgb(28, 71, 187);
+}
+.azul2{
+    width: 8.9vw;
+    height: 1vw;
+    background-color: rgb(28, 71, 187);
+}
+.azul3{
+    width: 4.5vw;
+    height: 1vw;
+    background-color: rgb(28, 71, 187);
+}
+.azul4{
+    width: 11.5vw;
+    height: 1vw;
+    background-color: rgb(28, 71, 187);
+}
+.porcentaje{
+    font-size: 1vw;
+    margin-left: 1vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.report{
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.hola{
+    margin-top: -0.2vw;
+    font-size: 2vw;
+    margin-left: 1vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#menuHambur:checked + .menu{
+    margin-left: -17vw;
 }
