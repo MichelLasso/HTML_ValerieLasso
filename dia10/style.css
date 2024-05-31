@@ -1,0 +1,176 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+/*contenedor principal*/
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+/*contenedor del menu*/
+.menu{
+    background-color: white;
+    width: 20vw;
+    height: 100vw;  
+    flex-direction: column; 
+    margin: 0;
+    padding: 0;
+}
+/*contenedor Dashboard*/
+.contenedorCuadros{
+    background-color: gray;
+    width:80vw ;
+    height: 100vw;
+    margin-top: 4.3%;
+}
+/*primera parte del menu*/
+.menuContenedor{
+    width: 20vw;
+    height: 11vw;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+/*segunda parte del menu*/
+.menuContenedor2{
+    width: 20vw;
+    height: 26vw;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: palegreen;
+    
+}
+/*imagen cara sonriente*/
+.carita{
+    width: 4vw;
+    height: 5vw;
+    margin-top: -1.4vw;
+}
+
+.div1{
+    display: flex;
+    width: 100vw;
+    height: 4.2vw;
+    overflow: hidden;
+    margin-top: 0.5vw;
+}
+.div2{
+    margin-top: 2.5vw;
+    width: 17vw;
+    display: flex;
+    height: 3.5vw;
+    background-color: blue;
+    border-radius: 1vw;
+    margin-left: 1vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+/*icon*/
+.imagen{
+    width: 3vw;
+    height: 3vw;
+}
+/*text*/
+.dasboard{
+    color: white;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+}
+/*text*/
+.adminsite{
+    margin: 0vw;
+    padding: 0vw;
+    font-size: 2vw;
+    color: blue;
+}
+/*desplazamiento del menu*/
+.botonMenu{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-top: -3.8vw;
+    margin-left: 1vw;
+}
+.div3{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    width: 17vw;
+    height: 5vw;
+}
+/*opciones del menu1*/
+#uno{
+    border: none;
+    width: 17vw;
+    height: 3.5vw;
+    font-size: 1.2vw;
+}
+.main{
+    font-size: 1.2vw;
+}
+.div4{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    width: 17vw;
+    height: 3.5vw;
+}
+.div5{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    width: 17vw;
+    height: 5vw;
+}
+.charts{
+    border: none;
+    width: 17vw;
+    height: 3.5vw;
+    font-size: 1.2vw;
+    text-align: start;
+    background-color: white;
+}
+.widgest{
+    border: none;
+    width: 17vw;
+    height: 3.5vw;
+    font-size: 1.2vw;
+    text-align: start;
+    background-color: white;
+}
+.texto1C2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5vw;
+}
+.texto1{
+    font-size: 2.3vw;
+}
+.texto2{
+    margin-top: -1.5vw;
+}
+.div5{
+    margin: 1vw;
+    width: 76vw;
+    height: 11vw;
+    background-color: bisque;
+    display: flex;
+}
+.cuadros{
+    width: 17vw;
+    height: 9vw;
+    background-color: brown;
+    margin: 1vw;
+    border-radius: 1vw;
+}
+.div6{
+    margin-left: 1vw;
+    margin-top: -1vw;
+    width: 76vw;
+    height: 7vw;
+    background-color: plum;
+    border-radius: 1vw;
+}
