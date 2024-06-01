@@ -6,9 +6,8 @@
 .contenedor{
     background-color: rgb(255, 255, 255);
     width: 100vw;
-    height: 100vw;
+    height: 55vw;
     display: flex;
-    overflow: hidden;
     margin: 0;
     padding: 0;
 }
@@ -17,7 +16,7 @@
 .menu{
     background-color: white;
     width: 20vw;
-    height: 100vw;  
+    height: 55vw;  
     flex-direction: column; 
     margin: 0;
     padding: 0;
@@ -27,7 +26,7 @@
 .contenedorCuadros{
     background-color: rgb(223, 223, 223);
     width:98% ;
-    height: 100vw;
+    height: 55vw;
     margin-top: 4.3%;
 }
 /*primera parte del menu*/
@@ -110,7 +109,7 @@
     margin-left: 1vw;
 }
 .div3{
-    margin-top: 2vw;
+    margin-top: 3vw;
     margin-left: 1vw;
     width: 17vw;
     height: 5vw;
@@ -139,6 +138,7 @@
     margin-left: 1vw;
     width: 17vw;
     height: 2.5vw;
+    display: flex;
 }
 .div5{
     margin-top: -0.5vw;
@@ -215,7 +215,7 @@
     
 }
 .numImg{
-    width: 17vw;
+    width: 22vw;
     height: 4vw;
     margin-top: 1.5vw;
     display: flex;
@@ -230,13 +230,13 @@
     margin-top: 1vw;
     width: 1.8vw;
     height: 1.8vw;
-    margin-left: 9.6vw;
+    margin-left: 13vw;
 }
 .iconRaYA2{
     margin-top: 1vw;
     width: 1.8vw;
     height: 1.8vw;
-    margin-left: 10.6vw;
+    margin-left: 14vw;
 }
 .traffic{
     margin-top: -0.2vw;
@@ -292,5 +292,53 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 #menuHambur:checked + .menu{
-    margin-left: -17vw;
+    margin-left: -13vw;
+    opacity: 0;
+}
+
+.ele{
+    margin-top: -3vw;
+    width: 10vw;
+    height: 3vw;
+    overflow: hidden;
+    display: flex;
+}
+.elements{
+    margin: 1vw;
+    width: 2vw;
+    height: 1vw;
+    font-size: 1.5vw;
+}
+.imgElements{
+    margin-top: 0.8vw;
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1.5vw;
+}
+.chartsImg{
+    margin-top: 0.9vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: 1.9vw;
+    background-color: black;
+}
+.widgetImg{
+    width: 2.1vw;
+    height: 1.6vw;
+    margin-left: 1.6vw;
+    margin-top: 1vw;
+}
+.tables{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+.circulo{
+    width: 2vw;
+    height: 2vw;
+    background-color: brown;
+    border-radius: 3.5vw;
+    margin-top: -3vw;
+    margin-left: 92vw;
 }
