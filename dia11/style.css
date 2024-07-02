@@ -1,0 +1,128 @@
+
+.contenedorPrincipal{
+    width: 100vw;
+    height: 100vw;
+}
+.contenedor1{
+    width: 100vw;
+    height: 68vw;
+    background-image: url(img/Fondo.png);
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menubar{
+    margin: 0;
+    background-color: #157FFB;
+    width: 100vw;
+    height: 9vw;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.textoInicio{
+    color: #fff;
+    width: 9vw;
+    height: 2vw;
+    top: 2vw;
+    justify-content: center;
+    font-size: 2vw;
+    text-decoration: none;
+}
+.logo{
+    width: 20vw;
+    height: 4vw;
+}
+.boton1{
+    background-color: white;
+    border-radius: 2vw ;
+    width: 12vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+.letraBoton{
+    font-size: 1.5vw;
+}
+.contenedorBlanco{
+    background-color: white;
+    width: 30vw;
+    height: 45vw;
+    border-radius: 1.5vw;
+    margin-top: 5vw;
+}
+.texto1blanco{
+    text-align: center;
+    font-size: 2vw;
+}
+.texto2blanco{
+    text-align: center;
+    font-size: 0.6vw;
+    margin-top: -1vw;
+}
+
+.contenedorTexto{
+
+    width: 30vw;
+    height: 15vw;
+    
+}
+.textoIngresoSolidario{
+    font-size: 2vw;
+    text-align: center;
+    color: black;
+}
+.textoIngresoSolidario2{
+    font-size: 1vw;
+    text-align: center;
+    color: black;
+}
+.botonAzul{
+    width:8vw;
+    height: 2vw;
+    border-radius: 0.7vw;
+    background-color: #157FFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 11vw;
+    border: 0;
+}
+.letraBotonAzul{
+    color: white;
+    font-size: 0.8vw;
+}
+.contenedor2{
+    width: 100vw;
+    height: 60vw;
+}
+.texto1Contenedor2{
+    text-align: center;
+    font-size: 2vw;
+}
+.textoImg{
+    display: flex;
+    width: 100vw;
+    height: 40vw;
+}
+.texto{
+    margin-top: 4vw;
+    width: 50vw;
+    height: 20vw;
+}
+.textoImg1{
+    text-align: center;
+}
+.imagenContenedor2{
+    width: 40vw;
+    height: 25vw;
+}
