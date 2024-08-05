@@ -32,16 +32,16 @@ Hay algunos trabajos que contienen dos carpetas adicionales para guardar las im√
 
 **Carpetas con animaciones:**
 
-dia8
-dia9
+* dia8
+* dia9
 
 **Carpetas con responsive (vw):**
 
-dia7
-dia8
-dia9
-dia10
-dia11
+* dia7
+* dia8
+* dia9
+* dia10
+* dia11
 
 
 # Imagen
